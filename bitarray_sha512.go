@@ -79,8 +79,6 @@ type sha512Digest struct {
 	function crypto.Hash
 }
 
-//go:linkname sha512Block crypto/sha512.block
 func sha512Block(*sha512Digest, []byte)
 
-//go:linkname sha512Reset crypto/sha512.(*digest).Reset
 func sha512Reset(*sha512Digest)

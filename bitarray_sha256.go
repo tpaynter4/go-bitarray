@@ -55,10 +55,4 @@ type sha256Digest struct {
 	nx    int      //nolint:structcheck,unused // for Reset()
 	len   uint64   //nolint:structcheck,unused // for Reset()
 	is224 bool
-}
-
-
-func sha256Block(*sha256Digest, []byte)
-
-
-func sha256Reset(*sha256Digest)
+})

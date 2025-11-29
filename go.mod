@@ -1,4 +1,4 @@
-module github.com/tunabay/go-bitarray
+module github.com/tpaynter4/go-bitarray
 
 go 1.17
 

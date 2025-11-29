@@ -55,4 +55,5 @@ type sha256Digest struct {
 	nx    int      //nolint:structcheck,unused // for Reset()
 	len   uint64   //nolint:structcheck,unused // for Reset()
 	is224 bool
-})
+}
+

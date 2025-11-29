@@ -41,8 +41,7 @@ type sha1Digest struct {
 	len uint64   //nolint:structcheck,unused // for Reset()
 }
 
-//go:linkname sha1Block crypto/sha1.block
+
 func sha1Block(*sha1Digest, []byte)
 
-//go:linkname sha1Reset crypto/sha1.(*digest).Reset
 func sha1Reset(*sha1Digest)

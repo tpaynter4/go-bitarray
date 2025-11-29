@@ -40,8 +40,3 @@ type sha1Digest struct {
 	nx  int      //nolint:structcheck,unused // for Reset()
 	len uint64   //nolint:structcheck,unused // for Reset()
 }
-
-
-func sha1Block(*sha1Digest, []byte)
-
-func sha1Reset(*sha1Digest)

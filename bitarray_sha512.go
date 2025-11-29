@@ -78,7 +78,3 @@ type sha512Digest struct {
 	len      uint64    //nolint:structcheck,unused // for Reset()
 	function crypto.Hash
 }
-
-func sha512Block(*sha512Digest, []byte)
-
-func sha512Reset(*sha512Digest)

@@ -57,8 +57,8 @@ type sha256Digest struct {
 	is224 bool
 }
 
-//go:linkname sha256Block crypto/sha256.block
+
 func sha256Block(*sha256Digest, []byte)
 
-//go:linkname sha256Reset crypto/sha256.(*digest).Reset
+
 func sha256Reset(*sha256Digest)
